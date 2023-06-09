@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Mi primer página web</title>
+    <link rel="stylesheet" type="text/css" href="Style2.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <button class="button-menu-toggle">Menu</button>
+        </nav>
+    </div>
+
+    <div class="container">
+        <img src="Egg.png" alt="Egg" width="70px" height="90px">
+        <h1>Contacto</h1>
+        <div class="row">
+            <div class="column">
+                <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+                <form id="myForm">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" required>
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <br>
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <br>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    <br>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <p>© 2023 Mi Página Web. Todos los derechos reservados.</p>
+            <button onclick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz clic en mí!</button>
+        </div>
+    </footer>
+
+  
+    <script src="index2.js"></script>
+</body>
+
+</html>
